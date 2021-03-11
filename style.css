@@ -199,6 +199,7 @@ main footer img {
 	margin-bottom: 32px;
 }
 .sub-article .article-info ul li p {
+	text-align: justify;
 	line-height: 40px;
 }
 .sub-article .article-info ul .hot {
@@ -209,6 +210,10 @@ main footer img {
 	text-align: center;
 	justify-content: center;
 	width: 100%;
+}
+.sub-article .article-info ul .hot p {
+	text-align: center;
+	margin-right: 32px;
 }
 .copy-icon {
 	position: absolute;

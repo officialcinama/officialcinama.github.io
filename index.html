@@ -7,6 +7,17 @@
 		<title>اپلیکیشن ۳۰نما</title>
 		<link rel="icon" type="image/png" href="assets/img/fav.png" />
 		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript">
+			window.$crisp = [];
+			window.CRISP_WEBSITE_ID = "76c182e5-aa7e-4154-9ee6-9f4945b74055";
+			(function () {
+				d = document;
+				s = d.createElement("script");
+				s.src = "https://client.crisp.chat/l.js";
+				s.async = 1;
+				d.getElementsByTagName("head")[0].appendChild(s);
+			})();
+		</script>
 	</head>
 	<body>
 		<main>
@@ -25,10 +36,10 @@
 								</svg>
 							</div>
 							<!-- WINDOWS-LINK -->
-							<a href="https://github.com/Mr30nama/30nama/releases/download/v0.4.1/30nama-Setup-0.4.1.exe">دانلود نسخه ویندوز</a>
+							<a href="https://github.com/Mr30nama/30nama/releases/download/v0.4.2/30nama-Setup-0.4.2.exe" onclick="showWindowsArticle()">دانلود نسخه ویندوز</a>
 							<!-- WINDOWS-LINK -->
 						</div>
-						<!-- <div class="btn mac">
+						<div class="btn mac">
 							<div class="icon">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30">
 									<path
@@ -36,8 +47,9 @@
 									/>
 								</svg>
 							</div>
-							<a href="https://github.com/Mr30nama/30nama/releases/download/v0.4.1/30nama-0.4.1.dmg" onclick="showMacArticle()">دانلود نسخه مک</a>
-						</div> -->
+
+							<a href="https://github.com/Mr30nama/30nama/releases/download/v0.4.2/30nama-0.4.2.dmg" onclick="showMacArticle()">دانلود نسخه مک</a>
+						</div>
 						<!-- <div class="btn linux">
 							<div class="icon">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30">
@@ -61,13 +73,13 @@
 					</figure>
 					<figcaption class="article-info">
 						<ul>
-							<!-- <li>
+							<!--  <li>
 								<p class="withbtn">
 									لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
 									برای شرایط فعلی تکنولوژی مورد نیاز ویندوز <a href="#">دانلود فایل دستور</a> ویا <a href="#">دانلود فایل دستور</a>استفاده کنید
 								</p>
-							</li> -->
-							<!-- <li>
+							</li>
+							<li>
 								<div class="img-box">
 									<img src="https://source.unsplash.com/random/1024x480" alt="" />
 								</div>
@@ -90,16 +102,33 @@
 								<p id="terminal-command1" class="eng">sudo xattr -rd com.apple.quarantine "/Applications/30nama.app"</p>
 							</li>
 							<li>
-								<p>در نظر داشته باشید که حتما باید 30nama را به فلدر Applications منتقل کنید.</p>
+								<p>در نظر داشته باشید برای استفاده از تمامی قابلیت های اپلیکیشن مک حتما باید اپلیکیشن 30nama را به Applications منتقل کنید.</p>
 							</li>
 							<li>
 								<p>
-									سپس رمز مربوط به مک خود را وارد کنید تا اجازه باز شدن به اپلیکیشن ۳۰نما داده شود. در نظر داشته باشید که در زمان ورود رمز به دلایل امنیتی چیزی نمایش داده نخواهد
-									شد.
+									در صورتی که باز هم برای دسترسی به اپلیکیشن به مشکلی برخورد کردید، می‌توانید از طریق <a href="#" onclick="$crisp.push(['do', 'chat:open'])">پشتیبانی</a> پیگیری
+									کنید تا راهنمایی کنیم.
 								</p>
 							</li>
+						</ul>
+					</figcaption>
+				</article>
+
+				<!-- windows article -->
+				<article id="windows-article" class="article sub-article">
+					<div class="backbtn">
+						<a href="#" onclick="backBtn()">بازگشت به صفحه اصلی</a>
+					</div>
+					<figure>
+						<h2>مشکلات اپلیکیشن در ویندوز</h2>
+					</figure>
+					<figcaption class="article-info">
+						<ul>
 							<li>
-								<p>در صورتی که باز هم برای دسترسی به اپلیکیشن به مشکلی برخورد کردید، می‌توانید از طریق پشتیبانی سایت پیگیری کنید تا راهنمایی کنیم.</p>
+								<p>
+									در صورتی که برای استفاده از اپلیکیشن ویندوز مشکل دارید می‌توانید از طریق <a href="#" onclick="$crisp.push(['do', 'chat:open'])">پشتیبانی</a> پیگیری کنید تا
+									راهنمایی کنیم.
+								</p>
 							</li>
 						</ul>
 					</figcaption>

@@ -13,6 +13,10 @@ const showMacArticle = () => {
 	document.getElementById("main-article").classList.remove("show-article");
 	document.getElementById("mac-article").classList.add("show-article");
 };
+const showWindowsArticle = () => {
+	document.getElementById("main-article").classList.remove("show-article");
+	document.getElementById("windows-article").classList.add("show-article");
+};
 
 function SelectText(element) {}
 

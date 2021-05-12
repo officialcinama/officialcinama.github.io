@@ -9,13 +9,10 @@ const backBtn = () => {
 	}
 	document.getElementById("main-article").classList.add("show-article");
 };
-const showMacArticle = () => {
+const showArticles = (page) => {
+	page = page + "-article";
 	document.getElementById("main-article").classList.remove("show-article");
-	document.getElementById("mac-article").classList.add("show-article");
-};
-const showWindowsArticle = () => {
-	document.getElementById("main-article").classList.remove("show-article");
-	document.getElementById("windows-article").classList.add("show-article");
+	document.getElementById(page).classList.add("show-article");
 };
 
 function SelectText(element) {}

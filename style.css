@@ -35,7 +35,6 @@ body {
 img {
 	user-select: none;
 }
-
 /* reset */
 
 main {
@@ -103,6 +102,12 @@ main article figure h1 {
 	user-select: none;
 	font-weight: 500;
 }
+/* main article figure .version {
+	font-size: 1.4em;
+	user-select: none;
+	font-weight: 200;
+} */
+
 main article figcaption {
 	max-width: 1024px;
 	margin: 32px auto 0 auto;
@@ -117,18 +122,39 @@ main article figcaption .btn {
 	align-items: center;
 	margin: 24px;
 }
+main article figcaption .btn .version {
+	font-size: 1.2em;
+	user-select: none;
+	color: #ccc;
+	font-weight: 200;
+}
 main article figcaption .btn .icon {
+	position: relative;
 	width: 5em;
 }
 main article figcaption .btn .icon svg {
 	transition: all 0.3s ease;
 	fill: #fff;
 }
+main article figcaption .btn .icon .sub-tv {
+	position: absolute;
+	display: flex;
+	width: 40%;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.3s ease;
+	fill: #fff;
+}
+
 main article figcaption .windows:hover .icon svg {
 	fill: #00a8e8;
 }
 main article figcaption .mac:hover .icon svg {
 	fill: #000;
+}
+main article figcaption .androidTv:hover .icon .sub-tv {
+	fill: #3ddc84;
 }
 main article figcaption .linux:hover .icon svg {
 	fill: #f7c600;
@@ -185,6 +211,13 @@ main footer img {
 	font-size: 3em;
 	user-select: none;
 	font-weight: 500;
+	text-align: center;
+}
+.sub-article figure h3 {
+	margin-top: 2rem;
+	font-size: 1.5em;
+	user-select: none;
+	font-weight: 700;
 	text-align: center;
 }
 .sub-article .article-info {
@@ -301,6 +334,9 @@ main footer img {
 	main article figcaption .btn .icon {
 		width: 4em;
 	}
+	main article figcaption .btn .version {
+		font-size: 1em;
+	}
 	main article figcaption a {
 		font-size: 1.1em;
 	}
@@ -317,6 +353,9 @@ main footer img {
 	.sub-article figure h2 {
 		font-size: 2em;
 	}
+	.sub-article figure h3 {
+		font-size: 1em;
+	}
 	/*  sub-article end */
 }
 @media all and (max-width: 480px) {
@@ -326,8 +365,12 @@ main footer img {
 	main article figure h1 {
 		font-size: 1.5em;
 	}
+
 	main article figcaption .btn .icon {
 		width: 3.5em;
+	}
+	main article figcaption .btn .version {
+		font-size: 1em;
 	}
 	main article figcaption a {
 		font-size: 1em;
@@ -348,6 +391,9 @@ main footer img {
 	}
 	.sub-article figure h2 {
 		font-size: 1.5em;
+	}
+	.sub-article figure h3 {
+		font-size: 1.2em;
 	}
 	/*  sub-article end */
 }

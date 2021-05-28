@@ -16,6 +16,7 @@
 a {
 	text-decoration: none;
 	color: #fff;
+	cursor: pointer;
 }
 li {
 	list-style-type: none;
@@ -113,6 +114,7 @@ main article figcaption {
 	margin: 32px auto 0 auto;
 	display: flex;
 	flex-flow: row wrap;
+	align-items: center;
 	justify-content: space-around;
 }
 main article figcaption .btn {
@@ -160,16 +162,40 @@ main article figcaption .linux:hover .icon svg {
 	fill: #f7c600;
 }
 main article figcaption a {
+	display: inline-flex;
+	flex-flow: row nowrap;
+	align-items: center;
 	font-size: 1.3em;
-	padding: 0.5rem 1.5rem;
+	padding: 0.5rem 2rem;
 	border: 1px solid #aaa;
 	border-radius: 1rem;
 	transition: all 0.3s ease;
+}
+main article figcaption a .download-icon {
+	width: 1.5em;
+	fill: #fff;
+	margin-left: 8px;
+	transition: all 0.3s ease;
+}
+main article figcaption .download-box {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+main article figcaption .download-box a {
+	direction: rtl;
+	font-size: 1em;
+	padding: 0.5rem 2em;
+	margin: 4px 8px;
 }
 main article figcaption a:hover {
 	border: 1px solid #fff;
 	background-color: #fff;
 	color: #000;
+}
+main article figcaption a:hover .download-icon {
+	fill: #000;
 }
 main footer {
 	position: relative;
@@ -202,7 +228,7 @@ main footer img {
 .sub-article .backbtn a {
 	font-size: 1em;
 	white-space: nowrap;
-	padding: 0.5rem 1.5rem;
+	padding: 0.5rem 2em;
 	border: 1px solid #aaa;
 	border-radius: 1rem;
 	transition: all 0.3s ease;
@@ -215,7 +241,7 @@ main footer img {
 }
 .sub-article figure h3 {
 	margin-top: 2rem;
-	font-size: 1.5em;
+	font-size: 2.3em;
 	user-select: none;
 	font-weight: 700;
 	text-align: center;
@@ -303,7 +329,7 @@ main footer img {
 
 .sub-article figcaption a {
 	font-size: 1.3em;
-	padding: 0.5rem 1.5rem;
+	padding: 0.1rem 2rem;
 	border: 1px solid #aaa;
 	border-radius: 1rem;
 	transition: all 0.3s ease;
@@ -340,6 +366,9 @@ main footer img {
 	main article figcaption a {
 		font-size: 1.1em;
 	}
+	main article figcaption .download-box a {
+		font-size: 0.9em;
+	}
 	main footer img {
 		width: 180px;
 	}
@@ -354,7 +383,7 @@ main footer img {
 		font-size: 2em;
 	}
 	.sub-article figure h3 {
-		font-size: 1em;
+		font-size: 1.3em;
 	}
 	/*  sub-article end */
 }
@@ -375,6 +404,9 @@ main footer img {
 	main article figcaption a {
 		font-size: 1em;
 	}
+	main article figcaption .download-box a {
+		font-size: 0.8em;
+	}
 	main footer img {
 		width: 150px;
 	}
@@ -393,7 +425,7 @@ main footer img {
 		font-size: 1.5em;
 	}
 	.sub-article figure h3 {
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 	/*  sub-article end */
 }

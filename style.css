@@ -234,21 +234,29 @@ main footer img {
 	transition: all 0.3s ease;
 }
 .sub-article figure h2 {
+	max-width: 1024px;
 	font-size: 3em;
 	user-select: none;
 	font-weight: 500;
 	text-align: center;
 }
 .sub-article figure h3 {
+	max-width: 1024px;
 	margin-top: 2rem;
-	font-size: 2.3em;
+	font-size: 2.1em;
 	user-select: none;
-	font-weight: 700;
+	font-weight: 300;
 	text-align: center;
 }
+.sub-article figure ul {
+	max-width: 1024px;
+	margin-top: 24px;
+}
 .sub-article .article-info {
+	width: 100%;
 }
 .sub-article .article-info ul {
+	width: 100%;
 	display: flex;
 	flex-flow: column nowrap;
 }

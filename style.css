@@ -270,6 +270,11 @@ main footer img {
 	text-align: justify;
 	line-height: 40px;
 }
+.sub-article .article-info ul li .center{
+	width: 100%;
+	text-align: center;
+	
+}
 .sub-article .article-info ul .hot {
 	position: relative;
 	background-color: rgb(32, 32, 32);

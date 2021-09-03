@@ -197,23 +197,31 @@ main article figcaption a:hover {
 main article figcaption a:hover .download-icon {
 	fill: #000;
 }
+main .wave{
+	width: 100%;
+	fill:#111417 ;
+}
 main footer {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
 	position: relative;
-	margin-top: -50px;
-	background: url("./assets/img/wave.svg");
+	margin-top: -2px;
+	background-color: #111417 ;
+	/* background: url("./assets/img/wave.svg"); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 200px;
+	/* height: 200px; */
 	z-index: 2;
+}
+main footer svg{
+	
 }
 main footer img {
 	width: 200px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-top: 16px;
-	transform: translate(-50%, -50%);
+
 }
 
 /* sub-article */

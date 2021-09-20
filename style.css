@@ -64,7 +64,7 @@ main {
 main .article-wrapper {
 	background: #d34040;
 	background: linear-gradient(0deg, #790909 0%, #d34040 100%);
-	min-height: calc(100vh - 150px);
+	min-height: 100vh;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
@@ -197,10 +197,7 @@ main article figcaption a:hover {
 main article figcaption a:hover .download-icon {
 	fill: #000;
 }
-main .wave{
-	width: 100%;
-	fill:#111417 ;
-}
+
 main footer {
 	display: flex;
 	flex-flow: column nowrap;
@@ -208,13 +205,24 @@ main footer {
 	align-items: center;
 	position: relative;
 	margin-top: -2px;
-	background-color: #111417 ;
-	/* background: url("./assets/img/wave.svg"); */
-	background-repeat: no-repeat;
-	background-size: cover;
 	width: 100%;
 	/* height: 200px; */
 	z-index: 2;
+}
+main footer .wave{
+	position: absolute;
+	transform: translateY(2px);
+    bottom: 100%;
+	width: 100%;
+	height: 200px;
+	fill:#111417 ;
+}
+main footer .content{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 0.8rem 0;
+	background-color: #111417;
 }
 main footer svg{
 	

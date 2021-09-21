@@ -76,13 +76,13 @@ main article {
 	flex-flow: column nowrap;
 	justify-content: center;
 	padding: 72px 32px;
-
 	opacity: 0 !important;
 	visibility: hidden !important;
 	padding: 0 !important;
 	height: 0 !important;
 	overflow: hidden !important;
 	transition: opacity 1s ease;
+	z-index: 100;
 }
 main .show-article {
 	opacity: 1 !important;
@@ -216,6 +216,7 @@ main footer .wave{
 	width: 100%;
 	height: 200px;
 	fill:#111417 ;
+	z-index: 5;
 }
 main footer .content{
 	display: flex;

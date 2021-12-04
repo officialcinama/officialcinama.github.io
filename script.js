@@ -4,11 +4,7 @@ var copyBusy2 = false;
 
 // functions
 const backBtn = () => {
-	let el = document.getElementsByClassName("article");
-	for (let i = 0; i < el.length; i++) {
-		el[i].classList.remove("show-article");
-	}
-	document.getElementById("main-article").classList.add("show-article");
+	window.location = '/'
 };
 const showArticles = (page) => {
 	page = page + "-article";

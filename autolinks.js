@@ -30,7 +30,7 @@ const getElementsByClass = (className) => Array.from(document.getElementsByClass
 	document.getElementById(`link-linux-deb`).onclick = () => window.open(`https://github.com/Mr30nama/30nama/releases/download/v${desktopVersion}/30nama_${desktopVersion}_amd64.deb`)
 	document.getElementById(`link-linux-appimage`).onclick = () => window.open(`https://github.com/Mr30nama/30nama/releases/download/v${desktopVersion}/30nama-${desktopVersion}.AppImage`)
 	document.getElementById(`link-linux-rpm`).onclick = () => window.open(`https://github.com/Mr30nama/30nama/releases/download/v${desktopVersion}/30nama-${desktopVersion}.x86_64.rpm`)
-	document.getElementById(`link-mac-silicon`).onclick = () => window.open(`https://github.com/Mr30nama/30nama/releases/download/v${desktopVersion}/30nama-${desktopVersion}-arm64-mac.zip`)
+	// document.getElementById(`link-mac-silicon`).onclick = () => window.open(`https://github.com/Mr30nama/30nama/releases/download/v${desktopVersion}/30nama-${desktopVersion}-arm64-mac.zip`)
 	document.getElementById(`link-mac-intel`).onclick = () => window.open(`https://github.com/Mr30nama/30nama/releases/download/v${desktopVersion}/30nama-${desktopVersion}.dmg`)
 	document.getElementById(`link-windows`).onclick = () => window.open(`https://github.com/Mr30nama/30nama/releases/download/v${desktopVersion}/30nama-Setup-${desktopVersion}.exe`)
 	document.getElementById(`link-android-tv`).onclick = () => window.open(`https://github.com/Mr30nama/30namaAndroidTV/releases/download/v${tvVersion}/30namaAndroidTV.apk`)

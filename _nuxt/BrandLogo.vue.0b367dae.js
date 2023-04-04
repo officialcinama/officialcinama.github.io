@@ -1,1 +1,0 @@
-import{d as c,X as n,o as s,e as l,g as e,Y as r}from"./entry.5ed4f6e8.js";const m=["src"],_=c({__name:"BrandLogo",props:{compact:{type:Boolean},color:null},setup(o){const a=n("theme","dark"),{logo:t}=r;return(g,p)=>(s(),l("img",{draggable:"false",src:e(t)(o.color||e(a),o.compact),alt:"30nama logo"},null,8,m))}});export{_};

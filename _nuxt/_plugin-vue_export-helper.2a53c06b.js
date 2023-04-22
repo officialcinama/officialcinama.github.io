@@ -1,1 +1,0 @@
-import{a8 as s,V as e,a9 as f}from"./entry.9cadf20c.js";const i={},r=s(i);function _(){const n=e();return n._appConfig||(n._appConfig=f(r)),n._appConfig}const u=(n,p)=>{const o=n.__vccOpts||n;for(const[t,a]of p)o[t]=a;return o};export{u as _,_ as u};

@@ -1,1 +1,0 @@
-import{a9 as s,W as e,aa as f}from"./entry.37e730c5.js";const i={},r=s(i);function _(){const n=e();return n._appConfig||(n._appConfig=f(r)),n._appConfig}const u=(n,p)=>{const o=n.__vccOpts||n;for(const[t,a]of p)o[t]=a;return o};export{u as _,_ as u};
